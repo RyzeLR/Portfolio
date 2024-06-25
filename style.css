@@ -76,16 +76,6 @@ main {
   color: var(--text-white);
   font-size: 20px;
   font-weight: 600;
-  transition: 1s;
-}
-
-.navbar-list a:hover {
-  color: var(--color1);
-  transition: 0.5s;
-}
-
-#home a {
-  color: var(--color1);
 }
 
 #about-me {
@@ -222,7 +212,7 @@ button:hover:nth-child(2) {
   gap: 20px;
   width: 100%;
   background: var(--color4);
-  padding: 20px;
+  padding: 3rem;
 }
 
 #cards h2 {

@@ -32,18 +32,12 @@
   }
 
   .info p {
-    max-width: 400px;
-  }
-
-  .ryze img {
-    order: 2;
+    max-width: 500px;
   }
 
   .contenido {
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
-    margin-top: 5rem;
   }
 
   .info {
@@ -51,7 +45,10 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    order: 2;
+  }
+
+  .ryze img {
+    display: none;
   }
 
   .botones {
@@ -87,5 +84,9 @@
 
   .content {
     max-width: 400px;
+  }
+
+  .info p {
+    max-width: 350px;
   }
 }

@@ -1,3 +1,13 @@
+:root {
+  /* Paleta */
+
+  --color1: #64aece;
+  --color2: #203a43;
+  --color3: #0f2027;
+  --color4: #1f3238;
+  --color5: #626266;
+}
+
 @keyframes fade {
   from {
     opacity: 0;
@@ -72,4 +82,28 @@
 
 .aboutme:nth-child(3) {
   animation-delay: 1.2s;
+}
+
+/* NAVBAR */
+
+.navbar-list li {
+  position: relative;
+}
+
+.navbar-list li a::after {
+  content: "";
+  position: absolute;
+  background-color: var(--text-white);
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.5s;
+}
+
+.navbar-list li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
